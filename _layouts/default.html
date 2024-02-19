@@ -7,6 +7,65 @@
 
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
 
+    <style>
+
+      .mylist {
+      list-style:none;
+      height:40px;
+      padding:0;
+      background: #f4f4f4;
+      border-radius:5px;
+      border:1px solid #e0e0e0;
+      width:270px;
+    }
+
+    ul.mylist {
+      list-style:none;
+      height:40px;
+      padding:0;
+      background: #f4f4f4;
+      border-radius:5px;
+      border:1px solid #e0e0e0;
+      width:270px;
+    }
+
+    .mylist li {
+      width:89px;
+      float:left;
+      border-right:1px solid #e0e0e0;
+      height:40px;
+    }
+
+    .mylist li:first-child a {
+      border-radius:5px 0 0 5px;
+    }
+
+    .mylist li:last-child a {
+      border-radius:0 5px 5px 0;
+    }
+
+    .mylist a {
+      line-height:1;
+      font-size:11px;
+      color:#676767;
+      display:block;
+      text-align:center;
+      padding-top:6px;
+      height:34px;
+    }
+
+    .mylist a:hover, .downloads a:focus {
+      color:#675C5C;
+      font-weight:bold;
+    }
+
+    .mylist ul a:active {
+      background-color:#f0f0f0;
+    }
+
+    </style>
+
+
   {% include head-custom.html %}
   </head>
   <body>
@@ -16,14 +75,10 @@
 
         <p>Re-exam preparation</p>
 
-        <ul class="downloads">
+        <ul class="mylist">
           <li><a href="./day1.html">Day 1 <strong>2nd of March</strong></a></li>
         </ul>
- 
-        <ul class="downloads">
-          <li><a href="./day2.html">Day 2 <strong>16th of March</strong></a></li>
-        </ul>
- 
+  
       </header>
       <section>
 
