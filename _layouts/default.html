@@ -12,42 +12,28 @@
     .mylist {
       list-style:none;
       background: #f4f4f4;
-      border-radius:5px;
-      border:1px solid #e0e0e0;
-      width:270px;
-    }
-
-    ul.mylist {
-      list-style:none;
-      background: #f4f4f4;
+      padding: 0;
       border-radius:5px;
       border:1px solid #e0e0e0;
       width:270px;
     }
 
     .mylist li {
-      height:40px;
-      width:268px;
-      border:1px solid #e0e0e0;
+      padding: 10px 15px 10px 15px;
+      border-bottom:1px solid #e0e0e0;
+    }
+
+    .mylist li:last-child{
+      border-bottom:none;
     }
 
     .mylist a {
-      line-height:1;
-      font-size:11px;
       color:#676767;
-      display:block;
-      text-align:center;
-      padding-top:6px;
-      height:34px;
     }
 
-    .mylist a:hover, .downloads a:focus {
+    .mylist a:hover, .mylist a:focus {
       color:#675C5C;
       font-weight:bold;
-    }
-
-    .mylist ul a:active {
-      background-color:#f0f0f0;
     }
 
     </style>
@@ -63,8 +49,8 @@
         <p>Re-exam preparation</p>
 
         <ul class="mylist">
-          <li><a href="./day1.html">Day 1 <strong>2nd of March</strong></a></li>
-          <li><a href="./day2.html">Day 2 <strong>16th of March</strong></a></li>
+          <li><a href="./day1.html">Day 1</a></li>
+          <li><a href="./day2.html">Day 2</a></li>
         </ul>
   
       </header>
