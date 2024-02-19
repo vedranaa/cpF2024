@@ -4,30 +4,24 @@ layout: default
 
 [Link to another page](./another-page.html).
 
-# Header 1
+# Re-exam preparation
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+During the spring semester 2024 we offer 6 days where you can get a brush up lecture and assignments in the various topics that we have reviewed throughout the semester. 
 
-## Header 2
+There will be about 1.5 hours of lectures followed by 2.5 hours of exercises in R007 in building 303A. There will be TAs for all of them, as well as new exercises so that you can practice both learning the basics, but also questions that could be on the exam. 
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
 
-### Header 3
+## Schedule
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+| Date (2024)    | Time         | Focus  |
+|:---------------|:-------------|--------|
+| 2nd of March   | 13:00-17:00  | [Focus 1](./day1.html)
+| 16th of March  | 13:00-17:00  | [Focus 1](./day2.html)
+| 6th of April   | 13:00-17:00  | [Focus 1](./day3.html)
+| 13th of April  | 13:00-17:00  | [Focus 1](./day4.html)
+| 27th of April  | 13:00-17:00  | [Focus 1](./day5.html)
+| 26th of May    | 09:00-17:00  | [Entire syllabus](./day6.html)
+
+
 
