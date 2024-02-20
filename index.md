@@ -14,14 +14,14 @@ For each day of the brush-up course, there will be a lecture (in Danish) lasting
 |:---------------|:-------------|--------------------------------|
 | 2nd of March   | 13:00-17:00  | [Assignments](./day1.html)     |
 | 16th of March  | 13:00-17:00  | [Loops](./day2.html)           |
-| 6th of April   | 13:00-17:00  | [Files](./day3.html)           |
-| 13th of April  | 13:00-17:00  | [Dicts and tuples](./day4.html)|
-| 27th of April  | 13:00-17:00  | [Classes](./day5.html)         |
-| 26th of May    | 09:00-17:00  | [Entire syllabus](./day6.html) |
+| 6th of April   | 13:00-17:00  | Files                          |
+| 13th of April  | 13:00-17:00  | Dicts and tuples               |
+| 27th of April  | 13:00-17:00  | Classes                        |
+| 26th of May    | 09:00-17:00  | Entire syllabus                |
 
 Place: **R007 in building 303A**. 
 
-Keep an eye with this page, as all important announcements regarding *Brush-up course* will appear here. If you have any questions, write a mail to Nicolai Amin at s194113@dtu.dk, who is responsible for the *Brush-up course*.
+Keep an eye with this page, as all important announcements regarding *Brush-up course* will appear here. If you have any questions, write a mail to Nicolai Amin at [s194113@dtu.dk](mailto:194113@dtu.dk)  s194113@dtu.dk, who is responsible for the *Brush-up course*.
 
 
 
