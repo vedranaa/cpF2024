@@ -4,16 +4,6 @@ layout: default
 
 # Day 1
 
-In problems included in this exercise, we first describe a situation where, during the execution of a program, you encounter a specific variable with a certain value. For instance, we might state that you have a variable `a` with the value `3`. In all the problems in this section, the specific value provided is just an example to illustrate the concept. The value of `a` could be any*different* integer number, such as `155`. To keep the problem text short, we won't repeatedly emphasize this in every problem.
-
-We then ask you to define another variable which has a specific type and a concrete value. To achieve this, you must somehow *utilize* the given variable without directly referencing its example value. In other words, you need to construct an assignment where the left side is a correct variable name, the right side is an appropriate expression involving the given variable. For example, after introducing `a = 3`, we might ask you to define an integer variable `b` with a value that is twice the value of `a`. Clearly, the value of `b` should be `6`. However, writing `b = 6` doesn't fulfill the objective, because you *performed the computation* yourself, and you should let the computer do the computation for you. Writing `b = 2 * 3` is not a correct solution either, because you *remembered the value* of variable `a` yourself, and you should let the computer store and retrieve values for you. To use the computers ability to store data and perform computation, you should solve the problem by writing `b = 2 * a`. Now, even if the value of `a` were a different integer, like `19084`, the value of `b` would be twice the value of `a`.
-
-In some of the problems ,you may be given more than one variable, or simply an explanation of the variable type. In some of the problems, you might need to perform multiple assignments to solve the problem.
-
-To aid your understanding, solutions for the first problems are provided. After that, in the first part of the exercise, problems are simpler and grouped based on the variable type. As you progress through the exercise, you'll encounter scenarios where you need to use various variable types to find solutions. 
-
-Some problems are chained and can be solved by changing the previous solution just a little bit. For chained problems, you can copy the previous solution and just make the needed modification.
-
 1. You have two float variables representing the length and the width of a room in meters, say
     ```python
     a = 5.7
@@ -21,13 +11,8 @@ Some problems are chained and can be solved by changing the previous solution ju
     ``` 
     Define a boolean value `bed_fits`, which should assume a value `True` if and only if a bed of the size 2-by-0.9 meters fits in the room.
 
-    **Solution**:
-   
 2. Say you have a variable `k` of the type float, and it represents...
 
-    **Solution:** To test the assignment which solves the problem, we need to assign some value to `k`.  
-
-    #### Integeres (and booleans)
    
 3. Make an assignment which creates a integer variable `year`. Its value should be the current year.
 
@@ -51,8 +36,6 @@ Some problems are chained and can be solved by changing the previous solution ju
 10. Continuation of the previous problem. Define the variable `has_extra_row` which is `True` if the last row of photographs contains fewer that `nr_columns` photographs. For the example from previous problem, this variable would be `True`.
 
 11. Continuation of the previous problem. Define the variable `nr_rows` which is the number of rows needed to display all photographs. For the example from the previous problem, you need 6 rows to display the photos. Hint: Notice that `nr_rows` is either `nr_full_rows` or one larger, if `has_extra_rows` is `True` (which is represented by 1). 
-
-    #### Floats
 
 12. Make an assignment which creates a float variable `temperature`. Its value should be the mean between 7 and 8.
 
@@ -80,34 +63,31 @@ Some problems are chained and can be solved by changing the previous solution ju
 21. Given the dimesions of the room in the variables `a` and `b`, define a variable `bed_fits` which has the value `True` if a bed of the size 200cm-by-90cm fits in the room.
 
 
+22. Make an assignment which creates a variable `name`. Its value should be your first name.
 
-    #### Strings
+23. Create a string variable `course_name` with the value `'Introduction to Programming'`.
 
-10. Make an assignment which creates a variable `name`. Its value should be your first name.
-
-11. Create a string variable `course_name` with the value `'Introduction to Programming'`.
-
-12. You have a string variable, similar to 
+24. You have a string variable, similar to 
     ```python
     first_name = 'Peter'
     ``` 
     Define a variable `greeting` with a value `'Hi, Peter!'`.
 
-13. You have two string variables, similar to 
+25. You have two string variables, similar to 
     ```python
     first_name = 'Anja'
     last_name = 'Andersen' 
     ``` 
     Define a variable `name` with value `'Anja Andersen'`.
 
-14. You have a string and an integer, similar to 
+26. You have a string and an integer, similar to 
      ```python
     w = 'MK31'
     t = 3
     ``` 
     Define a variable `wtt` with value `'MK31MK31MK31'`.
 
-15. You have a string and an integer, similar to
+27. You have a string and an integer, similar to
     ```python
     say = 'Yes!'
     number = 4
@@ -115,25 +95,22 @@ Some problems are chained and can be solved by changing the previous solution ju
     Define a variable `repeat` with value `'Yes! Yes! Yes! Yes!'`. The space should only be added between the repetitions.
 
 
-    #### Casting 
-
-1. You have two variables, a string and and integer, as in the example below
+28. You have two variables, a string and and integer, as in the example below
     ```python
     name = 'Katja'
     age = 17 
     ``` 
     Write the assignment which sets the value of a variable `statement` to `Katja is 17 years old`. 
 
-1. You have a string variable, where string is representing an integer, like `number = '187'`. Define an integer variable `n` with the value `187`.
+29. You have a string variable, where string is representing an integer, like `number = '187'`. Define an integer variable `n` with the value `187`.
 
-1. You have a string variable `number = '253'`. Define a float variable `n_half` with the value being the half of the value given by number.
+30. You have a string variable `number = '253'`. Define a float variable `n_half` with the value being the half of the value given by number.
 
 
-    #### Mixed tasks
 
-1. You have a string variable `year='2028'`. Define a string variable `next_year` with a value `'2029'`. (Note that both variables should be strings. Your assignment should work different years.)
+31. You have a string variable `year='2028'`. Define a string variable `next_year` with a value `'2029'`. (Note that both variables should be strings. Your assignment should work different years.)
 
-1. You have a float variable representing hours, for example for a one third of an hour it would be `h = 1/3`. Define variables `hour` and `minute`...
+32. You have a float variable representing hours, for example for a one third of an hour it would be `h = 1/3`. Define variables `hour` and `minute`...
 
 
 1.  Assume you have two variables `x` and `y` with numerical values. Write an assignment that swaps their values.
