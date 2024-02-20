@@ -27,6 +27,10 @@
       border-bottom:none;
     }
 
+    .mylist li:active{
+      background: #ffffff;
+    }
+
     .mylist {
       font-size:11px;
     }
@@ -60,6 +64,9 @@
         <p>Re-exam preparation</p>
 
         <ul class="mylist">
+          
+          {% if page.url == "./day1.html" %}<li class="active">{% else %}<li>{% endif %}
+            <a href="./day1.html">Day 1</a></li>
           <li><a href="./day1.html">Day 1 (2nd of March)</a></li>
           <li><a href="./day2.html">Day 2 (16th of March)</a></li>
           <li>Day 3 (6th of April)</li>
