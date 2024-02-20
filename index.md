@@ -4,7 +4,7 @@ layout: default
 
 # Brush-up course
 
-During the spring semester 2024, we offer a *Brush-up course* for students preparing for re-exam in the course *02002 Programmering* and *02003 Computer programming*. The *Brush-up course* consists of lecture and assignments in the topics from the programming courses. The *Brush-up course* is scheduled for 6 Saturdays during the semester, where the last Saturday is just few days before the re-exam.  
+During the spring semester 2024, we offer a *Brush-up course* for students preparing for re-exam in the course *02002 Programmering* and *02003 Computer programming*. The *Brush-up course* consists of lecture and assignments in the topics from the programming courses. The *Brush-up course* is scheduled for 5 Saturdays during the semester, and a final Sunday just few days before the re-exam.  
 
 For each day of the brush-up course, there will be a lecture (in Danish) lasting approximately 1.5 hours. The lecture will be followed by exercises, with TA help available. Each day, the lecture will have a special focus, but exercises will cover more varied parts of the course. We have prepared new exercises, so you can both refresh the basics, and try problems similar to what could appear on the exam.  
 
