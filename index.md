@@ -21,7 +21,7 @@ For each day of the brush-up course, there will be a lecture (in Danish) lasting
 
 Place: **R007 in building 303A**. 
 
-Keep an eye with this page, as all important announcements regarding *Brush-up course* will appear here. If you have any questions, write a mail to Nicolai Amin at [s194113@dtu.dk](mailto:194113@dtu.dk)  s194113@dtu.dk, who is responsible for the *Brush-up course*.
+Keep an eye with this page, as all important announcements regarding *Brush-up course* will appear here. If you have any questions, write a mail to Nicolai Amin at [s194113@dtu.dk](mailto:194113@dtu.dk), who is responsible for the *Brush-up course*.
 
 
 
