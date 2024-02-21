@@ -23,6 +23,8 @@ Place: **R007 in building 303A**.
 
 Keep an eye on this page, as all important announcements regarding *Brush-up course* will appear here. If you have any questions, write a mail to Nicolai Amin at [s194113@dtu.dk](mailto:194113@dtu.dk), who is responsible for the *Brush-up course*.
 
+The re-exam for courses 02002 and 02003 is scheduled for the 30th of May (please, note the date has been changed).
+
 
 
 
