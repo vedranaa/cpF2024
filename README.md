@@ -4,6 +4,6 @@ Repository for cpF2024 webpage, which is live at [https://vedranaa.github.io/cpF
 
 The page uses [Minimal](https://github.com/pages-themes/minimal), Jekyll theme for GitHub Pages by [https://github.com/orderedlist](https://github.com/orderedlist). 
 
-Instead of making changes to configuration file `_config.yml`, the layout (most importantly, left sidebar) is defined in `_layouts/default_html`. 
+The content of the navigation in the left sidebar is defined in `_config.yml`. The layout of the pages is defined in `_layouts/default_html`. 
 
 
