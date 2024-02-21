@@ -2,6 +2,6 @@
 layout: default
 ---
 
-# Day 1
+# Day 2
 
 Content will appear.
