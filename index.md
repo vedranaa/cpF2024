@@ -12,8 +12,8 @@ For each day of the brush-up course, there will be a lecture (in Danish) lasting
 
 | Date (2024)    | Time         | Focus                          |
 |:---------------|:-------------|--------------------------------|
-| 2nd of March   | 13:00-17:00  | [Assignments](day1.html)     |
-| 16th of March  | 13:00-17:00  | [Loops](day2.html)           |
+| 2nd of March   | 13:00-17:00  | Assignments                    |
+| 16th of March  | 13:00-17:00  | Loops                          |
 | 6th of April   | 13:00-17:00  | Files                          |
 | 13th of April  | 13:00-17:00  | Dicts and tuples               |
 | 27th of April  | 13:00-17:00  | Classes                        |
