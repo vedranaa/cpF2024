@@ -8,7 +8,7 @@ During the spring semester 2024, we offer a *Brush-up course* for students prepa
 
 For each day of the brush-up course, there will be a lecture (in Danish) lasting approximately 1.5 hours. The lecture will be followed by exercises, with TA help available for 2.5 hours. Each day, the lecture will have a special focus, but exercises will cover more varied parts of the course. We have prepared new exercises, so you can both refresh the basics, and try problems similar to what could appear on the exam.
 
-### Tentative Schedule
+## Tentative Schedule
 
 | Date (2024)    | Time         | Focus                          |
 |:---------------|:-------------|--------------------------------|
