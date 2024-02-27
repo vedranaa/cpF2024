@@ -41,7 +41,7 @@ If this inequality is not true, then the function should _print_ ```"Not a trian
 'Not a triangle'
 ```
 
-__cp.re01.heron.$${\color{purple}\text{triangle\_area}}$$(_a_, _b_, _c_)__
+__cp.re01.heron.${\color{purple}\text{triangle\_area}}$(_a_, _b_, _c_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Calculate and print the area of a triangle using Heron's formula.
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
