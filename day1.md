@@ -16,6 +16,8 @@ The following exercises are not all supposed to be completed today. This is a co
 
 ## Exercise 1.1: Herons Formula
 
+Try inline math $a$
+
 Herons Formula is a formula used to calculate the area of a triangle if you know the sides of it. The equation looks like this:
 $$ A = \sqrt{s(s-a)(s-b)(s-c)} $$
 Where s is half of the perimeter:
