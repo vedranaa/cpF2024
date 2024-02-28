@@ -177,9 +177,9 @@ Check if two RNA strands can form a DNA strand. The function ```is_dna_possible`
 The RNA's are composed only of letters in the list ```["A", "T", "G", "C"]```. The two RNA strands fit if at the same index, one has an A and the other has a T, or one has a C and the other has a G. Fx. "AGC" fits with "TCG", but not "TGC". If there is _any_ error, the RNA cannot combine and the function should return ```False```. The two RNA strands should also have the same length.
 
 ```python
->>> print(is_dna_possible("ATGCGTAG","TACGCATC"))
+>>> print(is_dna_possible("ATGCGTAG", "TACGCATC"))
 True
->>> print(is_dna_possible("AGTCAGTA","TCAGTCAT"))
+>>> print(is_dna_possible("AGTCAGTA", "TCAGTCAT"))
 False
 ```
 
