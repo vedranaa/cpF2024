@@ -14,6 +14,10 @@ layout: default
 
 The following exercises are not all supposed to be completed today. This is a collection of exercises that you can use to practice your skills on your own as well, but all of the TA's are more than capable of helping you with it.
 
+This week there are 13 exercises.  The exercises are divided into 2 parts, the first part is normal exercises to practice your skills (1-10). The second part is a similar to the exam, where you have to write a function that solves a specific problem (11-13).
+
+If you have any questions, feel free to ask. Send an email to [s194113@dtu.dk](matilto:s194113@dtu.dk?subject=02002_Brush_Up_Course).
+
 ## Exercise 1.1: Herons Formula
 
 Herons Formula is a formula used to calculate the area of a triangle if you know the sides of it. The equation looks like this:
