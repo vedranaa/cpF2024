@@ -22,7 +22,6 @@ If you have any questions, feel free to ask. Send an email to [s194113@dtu.dk](m
 Test of inline math
 \\(s = \frac{(a+b+c)}{2}\\)
 Test of display math
-
 \\[
 a+b > c \ \ \ \text{if} \ \ \ c = \max([a,b,c])
 \\]
@@ -31,7 +30,6 @@ a+b > c \ \ \ \text{if} \ \ \ c = \max([a,b,c])
 Test of inline math
 $s = \frac{(a+b+c)}{2}$
 Test of display math
-
 $$
 a+b > c \ \ \ \text{if} \ \ \ c = \max([a,b,c])
 $$
