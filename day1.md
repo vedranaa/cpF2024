@@ -18,6 +18,7 @@ This week there are 13 exercises.  The exercises are divided into 2 parts, the f
 
 If you have any questions, feel free to ask. Send an email to [s194113@dtu.dk](matilto:s194113@dtu.dk?subject=02002_Brush_Up_Course).
 
+## THIS WORKS IN PAGES
 Test of inline math
 \\(s = \frac{(a+b+c)}{2}\\)
 Test of display math
@@ -25,6 +26,16 @@ Test of display math
 \\[
 a+b > c \ \ \ \text{if} \ \ \ c = \max([a,b,c])
 \\]
+
+## THIS WORKS IN REPO
+Test of inline math
+$s = \frac{(a+b+c)}{2}$
+Test of display math
+
+$$
+a+b > c \ \ \ \text{if} \ \ \ c = \max([a,b,c])
+$$
+
 
 ## Exercise 1.1: Herons Formula
 
