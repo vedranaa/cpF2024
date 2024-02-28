@@ -41,7 +41,7 @@ If this inequality is not true, then the function should _print_ ```"Not a trian
 'Not a triangle'
 ```
 
-__cp.re01.heron.${\color{purple}\text{triangle\_area}}$(_a_, _b_, _c_)__
+__cp.re01.heron.triangle\_area(_a_, _b_, _c_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Calculate and print the area of a triangle using Heron's formula.
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
@@ -62,7 +62,7 @@ Complete the function ```count_vowels``` which takes ```word``` as input and cou
 0
 ```
 
-__cp.re01.vowels.${\color{purple}\text{count\_vowels}}$(_word_)__
+__cp.re01.vowels.count\_vowels(_word_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Count the number of vowels in a word.
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
@@ -81,7 +81,7 @@ Complete the function ```find_longest_word``` to find the longest word in a sent
 "words"
 ```
 
-__cp.re01.longest_word.${\color{purple}\text{find\_longest\_word}}$(_sentence_)__
+__cp.re01.longest_word.find\_longest\_word(_sentence_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Find the longest word in a list of words.
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
@@ -102,7 +102,7 @@ Complete the function ```find_duplicates``` to find any duplicates in a list. It
 []
 ```
 
-__cp.re01.duplicates.${\color{purple}\text{find\_duplicates}}$(_lst_)__
+__cp.re01.duplicates.find\_duplicates(_lst_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finds duplicates in a list.
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
@@ -123,7 +123,7 @@ Complete the function ```remove_duplicates``` that removes duplicates from a lis
 [1, 2, 3, "a", "b", "c"]
 ```
 
-__cp.re01.remove_duplicates.${\color{purple}\text{remove\_duplicates}}$(_list_)__
+__cp.re01.remove_duplicates.remove\_duplicates(_list_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Remove duplicates from a list.
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
@@ -142,7 +142,7 @@ Complete the function ```reverse_sentence``` to reverse a sentence. The sentence
 "sentence test Another"
 ```
 
-__cp.re01.reverse_sentence.${\color{purple}\text{reverse\_sentence}}$(_sentence_)__
+__cp.re01.reverse_sentence.reverse\_sentence(_sentence_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reverse a string
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
@@ -156,12 +156,12 @@ Complete the function ```calculate_gc_content``` to calculate the GC content of 
 
 ```python
 >>> print(calculate_gc_content("ATGCGTA"))
-50
+42.857142857
 >>> print(calculate_gc_content("ATCTAGACTAC"))
-40
+36.36363636363637
 ```
 
-__cp.re01.gc_content.${\color{purple}\text{find\_longest\_word}}$(_sentence_)__
+__cp.re01.gc_content.find\_longest\_word(_sentence_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Calculates the GC content of a DNA sequence.
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
@@ -182,7 +182,7 @@ True
 False
 ```
 
-__cp.re01.rna.${\color{purple}\text{is\_dna\_possible}}$(_rna1_,_rna2_)__
+__cp.re01.rna.is\_dna\_possible(_rna1_,_rna2_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Check if two RNA strands can form a DNA strand.
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
@@ -209,7 +209,7 @@ Where D is the deflection, M is the load, L is the length of the beam, $\lambda$
 6
 ```
 
-__cp.re01.beam_deflection.${\color{purple}\text{calculate\_beam\_deflection}}$(_length_, _load_, _modulus_of_elasticity_, _moment_of_inertia_)__
+__cp.re01.beam_deflection.calculate\_beam\_deflection(_length_, _load_, _modulus_of_elasticity_, _moment_of_inertia_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Calculates the deflection of a beam under a given load using engineering principles.
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
@@ -239,7 +239,7 @@ Where h is the height, and w is the weight. If the BMI ever gets over 25, the fu
 24.6913580247
 ```
 
-__cp.re01.bmi_compare.${\color{purple}\text{check\_health}}$(_weights_, _heights_, _max_bmi_diff_)__
+__cp.re01.bmi_compare.check\_health(_weights_, _heights_, _max_bmi_diff_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Remove duplicates from a list.
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
@@ -261,7 +261,7 @@ Complete the function ```median``` to find the median of a list of numbers. The 
 9
 ```
 
-__cp.re01.media.${\color{purple}\text{median}}$(_numbers_)__
+__cp.re01.media.median(_numbers_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Calculate the median of a list of numbers.
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
@@ -280,7 +280,7 @@ Complete the function ```highest_score``` to find the highest exam score that is
 89.9
 ```
 
-__cp.re01.high_score.${\color{purple}\text{highest\_score}}$(_scores_)__
+__cp.re01.high_score.highest\_score(_scores_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Find the highest score in a list of scores that is not the first or last score.
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
@@ -299,7 +299,7 @@ Complete the function ```sum_index``` to find the index, where the sum of the fi
 9
 ```
 
-__cp.re01.list_compare.${\color{purple}\text{sum\_index}}$(_list1_,_list2_)__
+__cp.re01.list_compare.sum\_index(_list1_,_list2_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Remove duplicates from a list.
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
