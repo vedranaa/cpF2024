@@ -204,9 +204,9 @@ $$
 Where $D$ is the deflection, $M$ is the load, $L$ is the length of the beam, $\lambda$ is the modulus of elasticity and $I$ is the moment of inertia. Complete the function using the parameters ```length```, ```load```, ```modulus_of_elasticity``` and ```moment_of_inertia```, which returns the deflection ```deflection```
 
 ```python
->>> print(calculate_beam_deflection(1,1,1,1))
+>>> print(calculate_beam_deflection(1, 1, 1, 1))
 0.3333333
->>> print(calculate_beam_deflection(3,2,3,1))
+>>> print(calculate_beam_deflection(3, 2, 3, 1))
 6
 ```
 
@@ -231,7 +231,7 @@ $$
 BMI = \frac{w}{h^2}
 $$
 
-Where h is the height, and w is the weight. If the BMI ever gets over 25, the function should return ```"High BMI detected at index i"```, where i is the index where the BMI went over 25. If the BMI ever changes by more than ```max_bmi_diff``` between two years, the function should return ```"Unstable BMI detected at index i"```. If none of these things happen throughout the list, the function should return the BMI of the last year in the list.
+Where $h$ is the height, and $w$ is the weight. If the BMI ever gets over 25, the function should return ```"High BMI detected at index i"```, where i is the index where the BMI went over 25. If the BMI ever changes by more than ```max_bmi_diff``` between two years, the function should return ```"Unstable BMI detected at index i"```. If none of these things happen throughout the list, the function should return the BMI of the last year in the list.
 
 ```python
 >>> print(check_health([60, 65, 70, 75, 80], [1.65, 1.70, 1.75, 1.80, 1.85], 1.1))
@@ -256,9 +256,9 @@ __cp.re01.bmi_compare.check\_health(_weights_, _heights_, _max_bmi_diff_)__
 Complete the function ```median``` to find the median of a list of numbers. The median is the number that is in the middle of a data set if the set is ordered from largest to smallest. The function should take an input ```numbers``` and return the median. If the list has an even length, take the average of the two middle values.
 
 ```python
->>> print(median([1,5,2,4,3]))
+>>> print(median([1, 5, 2, 4, 3]))
 3
->>> print(median([2,4,6,8,5,10,12,15,16,17])
+>>> print(median([2, 4, 6, 8, 5, 10, 12, 15, 16, 17])
 9
 ```
 
@@ -275,9 +275,9 @@ __cp.re01.media.median(_numbers_)__
 Complete the function ```highest_score``` to find the highest exam score that is not the first or last score. The function takes a list as input ```scores``` and returns a float of the ```score```. There will always be 3 or more scores on the list.
 
 ```python
->>> print(highest_score([90.5,80.3,60.2,80.9, 96.5]))
+>>> print(highest_score([90.5, 80.3, 60.2, 80.9, 96.5]))
 80.9
->>> print(highest_score([62.9,75.5,89.9,60.4]))
+>>> print(highest_score([62.9, 75.5, 89.9, 60.4]))
 89.9
 ```
 
@@ -296,7 +296,7 @@ Complete the function ```sum_index``` to find the index, where the sum of the fi
 ```python
 >>> print(sum_index([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
 -1
->>> print(sum_index([1,2,3,4,5,6,7,8,9,10],[5,5,5,5,5,5,5,5,5,5]))
+>>> print(sum_index([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5]))
 9
 ```
 
