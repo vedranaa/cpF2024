@@ -34,11 +34,11 @@ If this inequality is not true, then the function should _print_ ```"Not a trian
 
 ```python
 >>> triangle_area(1,2,2)
-"The area of the triangle is: 0.96825"
+The area of the triangle is: 0.96825
 >>> triangle_area(3,4,5)
-"The area of the triangle is: 6"
+The area of the triangle is: 6
 >>> triangle_area(1,2,4)
-'Not a triangle'
+Not a triangle
 ```
 
 __cp.re01.heron.triangle\_area(_a_, _b_, _c_)__
