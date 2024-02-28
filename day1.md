@@ -21,7 +21,7 @@ If you have any questions, feel free to ask. Send an email to [s194113@dtu.dk](m
 ## THIS WORKS IN PAGES
 Inline math
 \\(s = \frac{(a+b+c)}{2}\\)
-Display math
+Display math 
 \\[
 a+b > c \ \ \ \text{if} \ \ \ c = \max([a,b,c])
 \\]
@@ -29,10 +29,7 @@ a+b > c \ \ \ \text{if} \ \ \ c = \max([a,b,c])
 ## THIS WORKS IN REPO
 Inline math
 $s = \frac{(a+b+c)}{2}$
-Display math
-$$
-a+b > c \ \ \ \text{if} \ \ \ c = \max([a,b,c])
-$$
+Display math without linjeskift $$ a+b > c \ \ \ \text{if} \ \ \ c = \max([a,b,c]) $$
 
 
 ## Exercise 1.1: Herons Formula
