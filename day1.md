@@ -198,10 +198,10 @@ __cp.re01.rna.is\_dna\_possible(_rna1_,_rna2_)__
 Complete the function ```calculate_beam_deflection``` to find the deflection of a beam under a given load. The deflection follows the formula:
 
 $$
-D = \frac{M*L^3}{3*\lambda*I}
+D = \frac{M L^3}{3 \lambda I}
 $$
 
-Where D is the deflection, M is the load, L is the length of the beam, $\lambda$ is the modulus of elasticity and $I$ is the moment of inertia. Complete the function using the parameters ```length```, ```load```, ```modulus_of_elasticity``` and ```moment_of_inertia```, which returns the deflection ```deflection```
+Where $D$ is the deflection, $M$ is the load, $L$ is the length of the beam, $\lambda$ is the modulus of elasticity and $I$ is the moment of inertia. Complete the function using the parameters ```length```, ```load```, ```modulus_of_elasticity``` and ```moment_of_inertia```, which returns the deflection ```deflection```
 
 ```python
 >>> print(calculate_beam_deflection(1,1,1,1))
