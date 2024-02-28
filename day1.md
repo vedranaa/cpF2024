@@ -17,13 +17,9 @@ The following exercises are not all supposed to be completed today. This is a co
 ## Exercise 1.1: Herons Formula
 
 Herons Formula is a formula used to calculate the area of a triangle if you know the sides of it. The equation looks like this:
-$$
-A = \sqrt{s(s-a)(s-b)(s-c)}
-$$
+$$ A = \sqrt{s(s-a)(s-b)(s-c)} $$
 Where s is half of the perimeter:
-$$
-s = \frac{(a+b+c)}{2}
-$$
+$$ s = \frac{(a+b+c)}{2} $$
 Complete the function ```triangle_area``` in file ```cp/re01/heron.py``` which takes as input three floats ```a```, ```b```, and ```c```, which represent the sides of a triangle. The function should _print_ the area of the triangle. Along with this, there is a limit on the triangle, which states that the largest side has to be smaller than the sum of the two other sides.
 
 $$
