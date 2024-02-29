@@ -7,7 +7,7 @@ layout: default
 > [!IMPORTANT]
 > You must start by downloading the script
 >
-> [Link not working yet - download_re01.py](link.org)
+> [download_re01.py](https://gitlab.compute.dtu.dk/cp/02002public/-/blob/re_N/download_scripts/download_re01.py)
 >
 > Right-click and select “Save link as…”. You may need to confirm the download in your browser.
 > Run this script in VSCode to download the files you need for the first lecture. The script does not need to be located a specific place on your computer.
