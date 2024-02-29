@@ -41,6 +41,8 @@ The area of the triangle is: 6
 Not a triangle
 ```
 
+The tests for the function ```triangle_area``` can be run by inserting your solution into the file ```cp/re01/heron```.
+
 __cp.re01.heron.triangle\_area(_a_, _b_, _c_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Calculate and print the area of a triangle using Heron's formula.
@@ -62,6 +64,8 @@ Complete the function ```count_vowels``` which takes ```word``` as input and cou
 0
 ```
 
+The tests for the function ```count_vowels``` can be run by inserting your solution into the file ```cp/re01/vowels```.
+
 __cp.re01.vowels.count\_vowels(_word_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Count the number of vowels in a word.
@@ -80,6 +84,8 @@ Complete the function ```find_longest_word``` to find the longest word in a sent
 >>> print(find_longest_word("Long words do not have dots."))
 "words"
 ```
+
+The tests for the function ```find_longest_word``` can be run by inserting your solution into the file ```cp/re01/longest_word```.
 
 __cp.re01.longest_word.find\_longest\_word(_sentence_)__
 
@@ -102,6 +108,8 @@ Complete the function ```find_duplicates``` to find any duplicates in a list. It
 []
 ```
 
+The tests for the function ```find_duplicates``` can be run by inserting your solution into the file ```cp/re01/duplicates```.
+
 __cp.re01.duplicates.find\_duplicates(_lst_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finds duplicates in a list.
@@ -123,6 +131,8 @@ Complete the function ```remove_duplicates``` that removes duplicates from a lis
 [1, 2, 3, "a", "b", "c"]
 ```
 
+The tests for the function ```remove_duplicates``` can be run by inserting your solution into the file ```cp/re01/remove_duplicates```.
+
 __cp.re01.remove_duplicates.remove\_duplicates(_list_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Remove duplicates from a list.
@@ -141,6 +151,8 @@ Complete the function ```reverse_sentence``` to reverse a sentence. The sentence
 >>> print(reverse_sentence("Another test sentence"))
 "sentence test Another"
 ```
+
+The tests for the function ```reverse_sentence``` can be run by inserting your solution into the file ```cp/re01/reverse_sentence```.
 
 __cp.re01.reverse_sentence.reverse\_sentence(_sentence_)__
 
@@ -161,7 +173,9 @@ Complete the function ```calculate_gc_content``` to calculate the GC content of 
 36.36363636363637
 ```
 
-__cp.re01.gc_content.find\_longest\_word(_sentence_)__
+The tests for the function ```calculate_gc_content``` can be run by inserting your solution into the file ```cp/re01/gc_content```.
+
+__cp.re01.gc_content.calculate_gc_content(_dna_sequence_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Calculates the GC content of a DNA sequence.
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
@@ -181,6 +195,8 @@ True
 >>> print(is_dna_possible("AGTCAGTA", "TCAGTCAT"))
 False
 ```
+
+The tests for the function ```is_dna_possible``` can be run by inserting your solution into the file ```cp/re01/rna```.
 
 __cp.re01.rna.is\_dna\_possible(_rna1_,_rna2_)__
 
@@ -208,6 +224,8 @@ Where $D$ is the deflection, $M$ is the load, $L$ is the length of the beam, $\l
 >>> print(calculate_beam_deflection(3, 2, 3, 1))
 6
 ```
+
+The tests for the function ```calculate_beam_deflection``` can be run by inserting your solution into the file ```cp/re01/beam_deflection```.
 
 __cp.re01.beam_deflection.calculate\_beam\_deflection(_length_, _load_, _modulus_of_elasticity_, _moment_of_inertia_)__
 
@@ -239,6 +257,8 @@ Where $h$ is the height, and $w$ is the weight. If the BMI ever gets over 25, th
 24.6913580247
 ```
 
+The tests for the function ```check_health``` can be run by inserting your solution into the file ```cp/re01/bmi_compare```.
+
 __cp.re01.bmi_compare.check\_health(_weights_, _heights_, _max_bmi_diff_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Remove duplicates from a list.
@@ -261,7 +281,9 @@ Complete the function ```median``` to find the median of a list of numbers. The 
 9
 ```
 
-__cp.re01.media.median(_numbers_)__
+The tests for the function ```median``` can be run by inserting your solution into the file ```cp/re01/median```.
+
+__cp.re01.median.median(_numbers_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Calculate the median of a list of numbers.
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
@@ -279,6 +301,8 @@ Complete the function ```highest_score``` to find the highest exam score that is
 >>> print(highest_score([62.9, 75.5, 89.9, 60.4]))
 89.9
 ```
+
+The tests for the function ```high_score``` can be run by inserting your solution into the file ```cp/re01/high_score```.
 
 __cp.re01.high_score.highest\_score(_scores_)__
 
@@ -298,6 +322,8 @@ Complete the function ```sum_index``` to find the index, where the sum of the fi
 >>> print(sum_index([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5]))
 9
 ```
+
+The tests for the function ```sum_index``` can be run by inserting your solution into the file ```cp/re01/list_compare```.
 
 __cp.re01.list_compare.sum\_index(_list1_,_list2_)__
 
