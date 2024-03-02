@@ -21,7 +21,7 @@ The lecture will be followed by exercises, with TA help available for 2.5 hours 
 | 27th of April  | 13:00-17:00  | Classes                        |
 | 26th of May    | 09:00-17:00  | Entire syllabus                |
 
-Place: **R007 in building 303A** for all lectures through the semester. Group work will also be in 303A. **Aud 32 + 33 in building 306** for the 26th of May.
+Place: **Aud 042 in building 303A** for all lectures through the semester. Group work will also be in 303A. **Aud 32 + 33 in building 306** for the 26th of May.
 
 Keep an eye on this page, as all important announcements regarding *Brush-up course* will appear here. If you have any questions, write a mail to Nicolai Amin at [s194113@dtu.dk](mailto:194113@dtu.dk), who is responsible for the *Brush-up course*.
 

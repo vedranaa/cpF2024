@@ -18,7 +18,6 @@ This week there are 13 exercises.  The exercises are divided into 2 parts, the f
 
 If you have any questions, feel free to ask. Send an email to [s194113@dtu.dk](matilto:s194113@dtu.dk?subject=02002_Brush_Up_Course).
 
-
 ## Exercise 1.1: Herons Formula
 
 Herons Formula is a formula used to calculate the area of a triangle if you know the sides of it. The equation looks like this:
