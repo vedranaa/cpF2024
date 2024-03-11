@@ -18,7 +18,7 @@
     </script>
     <script type="text/javascript" id="MathJax-script" async
       src="https://cdn.jsdelivr.net/npm/mathjax@3.0.0/es5/startup.js">
-    </script>   
+    </script>
 
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
 
@@ -45,8 +45,9 @@
       cursor: default;
       }
       @media print, screen and (max-width: 960px) {
-      header ul {
-      position:static;
+        header ul {
+        position:static;
+        }
       }
     </style>
 
@@ -61,7 +62,7 @@
         <p>Re-exam preparation</p>
 
         <ul class="mylist">
-        {% for item in site.days %} 
+        {% for item in site.days %}
           {% if page.url contains item.url %}
             <li class="active"><a class="active" href="{{item.url}}">{{item.title}}</a></li>
           {% else %}
@@ -69,7 +70,7 @@
           {% endif %}
         {% endfor %}
         </ul>
-  
+
       </header>
       <section>
 
