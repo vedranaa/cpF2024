@@ -1,13 +1,11 @@
 ---
 layout: default
 ---
-
-
 # Exercises Re02
 
 > You must start by downloading the script
 >
-> [Note usable yet](download_scripts/download_re02.py)
+> [download_re02.py](download_scripts/download_re02.py)
 >
 > Right-click and select “Save link as…”.
 > Run this script in VSCode to download the files you need for today's exercise. The script does not need to be located a specific place on your computer.
@@ -35,18 +33,19 @@ The objects will never collide.
 The objects will collide at time 3.0 seconds.
 ```
 
-The tests for the function ```simulate_motion``` can be run by inserting your solution into the file ```cp/re02/physics```.
+The tests for the function ``simulate_motion`` can be run by inserting your solution into the file ``cp/re02/physics``.
 
 __cp.re02.physics.simulate_motion(_v1_,_v2_,_x1_,_x2_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Simulate the motion of two objects. Tell when they will collide.
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __v1__ (```float```) - the velocity of the first object \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __v2__ (```float```) - the velocity of the second object \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __x1__ (```float```) - the initial position of the first object \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __x2__ (```float```) - the initial position of the second object \
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Returns \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __string__ (```string```) - When and if the objects will collide
+
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __v1__ (``float``) - the velocity of the first object 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __v2__ (``float``) - the velocity of the second object 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __x1__ (``float``) - the initial position of the first object 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __x2__ (``float``) - the initial position of the second object 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Returns 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __string__ (``string``) - When and if the objects will collide
 
 ## Exercise 2.2: Dictionary of strings
 
@@ -59,15 +58,16 @@ Complete the function `dictionary_length` that takes a list `l` of strings and r
 {'a': 1, 'ab': 2, 'abc': 3, 'abcd': 4}
 ```
 
-The tests for the function ```dictionary_length``` can be run by inserting your solution into the file ```cp/re02/dictionary1```.
+The tests for the function ``dictionary_length`` can be run by inserting your solution into the file ``cp/re02/dictionary1``.
 
 __cp.re02.permutations.permutations(_s_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Given a list of strings, return a dictionary with the length of each string as values and the strings as keys.
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __l__ (```list```) - list of words \
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __d__ (```dict```) - dictionary with words as keys and lengths as values \
+
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __l__ (``list``) - list of words 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __d__ (``dict``) - dictionary with words as keys and lengths as values \
 
 ## Exercise 2.3: Dictionary of strings 2
 
@@ -79,15 +79,16 @@ Complete the function `dictionary_lengths` that takes a list `l` of strings and 
 {1: ["a"], 2: ["ab"], 3: ["abc"], 4: ["abcd"]}
 ```
 
-The tests for the function ```dictionary_lengths``` can be run by inserting your solution into the file ```cp/re02/dictionary2```.
+The tests for the function ``dictionary_lengths`` can be run by inserting your solution into the file ``cp/re02/dictionary2``.
 
 __cp.re02.permutations.permutations(_s_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Given a list of strings, return a dictionary with the length of each string as keys and a list of strings with that length as the value.
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __l__ (```list```) - list of words \
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __d__ (```dict```) - dictionary with words as values and lengths as keys \
+
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __l__ (``list``) - list of words 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __d__ (``dict``) - dictionary with words as values and lengths as keys \
 
 ## Exercise 2.4: Palindrome Check
 
@@ -100,15 +101,16 @@ True
 False
 ```
 
-The tests for the function ```is_palindrome``` can be run by inserting your solution into the file ```cp/re02/palindrome```.
+The tests for the function ``is_palindrome`` can be run by inserting your solution into the file ``cp/re02/palindrome``.
 
 __cp.re02.palindrome.is_palindrome(_s_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Return True if the input string is a palindrome, False otherwise.
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __s__ (```str```) - string \
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __b__ (```bool```) - True or False if palindrome or not \
+
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __s__ (``str``) - string 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __b__ (``bool``) - True or False if palindrome or not \
 
 ## Exercise 2.5: Pascals Triangle
 
@@ -125,15 +127,16 @@ Pascal's triangle is made by summing the two numbers above it self (see the figu
 [1, 3, 3, 1]
 ```
 
-The tests for the function ```pascals_triangle``` can be run by inserting your solution into the file ```cp/re02/pascals_triangle```.
+The tests for the function ``pascals_triangle`` can be run by inserting your solution into the file ``cp/re02/pascals_triangle``.
 
 __cp.re02.pascals_triangle.pascals_triangle(_n_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Return Pascal's nth row.
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __n__ (```int```) - line number to generate \
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __l__ (```list```) - list of numbers in the nth row of pascals triangle.
+
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __n__ (``int``) - line number to generate 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __l__ (``list``) - list of numbers in the nth row of pascals triangle.
 
 ## Exercise 2.6: Matrix Calculation 1
 
@@ -160,17 +163,18 @@ Thus the sum along axis 0 is [6, 15, 24] and along axis 1 it is [12, 15, 18]. Al
 [12, 15, 18]
 ```
 
-The tests for the function ```calc_matrix``` can be run by inserting your solution into the file ```cp/re02/matrix1```.
+The tests for the function ``calc_matrix`` can be run by inserting your solution into the file ``cp/re02/matrix1``.
 
 __cp.re02.matrix1.calc_matrix(_m_,_n_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Calculate the sum of a matrix along an axis. Make sure the matrix is rectangular.
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __m__ (```list```) - a list of lists of integers. \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __n__ (```int```) - an integer representing the axis to sum along. \
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __l__ (```list```) - a list of integers representing the sum of the matrix along the
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;specified axis.
+
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __m__ (``list``) - a list of lists of integers. 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __n__ (``int``) - an integer representing the axis to sum along. 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __l__ (``list``) - a list of integers representing the sum of the matrix along the
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;specified axis.
 
 ## Exercise 2.7: Matrix Calculation 2: Gauss Jordan
 
@@ -220,16 +224,17 @@ This should have been something you had in Math 1a, however if you are in doubt 
 [[1.0, 3.0, 7.0], [-0.0, 1.0, 2.0]]
 ```
 
-The tests for the function ```gauss_jordan_elimination``` can be run by inserting your solution into the file ```cp/re02/matrix2```.
+The tests for the function ``gauss_jordan_elimination`` can be run by inserting your solution into the file ``cp/re02/matrix2``.
 
 __cp.re02.matrix2.gauss_jordan_elimination(_m_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Perform Gauss Jordan elimination on a matrix.
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __m__ (```list```) - a list of lists of integers representing a matrix. \
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __m__ (```list```) - a list of lists of integers representing the matrix after Gauss Jordan
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;elimination.
+
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __m__ (``list``) - a list of lists of integers representing a matrix. 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __m__ (``list``) - a list of lists of integers representing the matrix after Gauss Jordan
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;elimination.
 
 ## Exercise 2.8: Is it a prime number?
 
@@ -242,15 +247,16 @@ False
 True
 ```
 
-The tests for the function ```is_prime``` can be run by inserting your solution into the file ```cp/re02/prime1```.
+The tests for the function ``is_prime`` can be run by inserting your solution into the file ``cp/re02/prime1``.
 
 __cp.re02.prime1.is_prime(_n_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return True if the input number is prime, False otherwise.
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __n__ (```int```) - an integer. \
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __m__ (```bool```) - a boolean indicating whether the input number is prime.
+
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __n__ (``int``) - an integer. 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __m__ (``bool``) - a boolean indicating whether the input number is prime.
 
 ## Exercise 2.9: Prime factorization
 
@@ -263,15 +269,16 @@ Complete the function `prime_factors`, which takes an integer, and returns a lis
 [13]
 ```
 
-The tests for the function ```prime_factors``` can be run by inserting your solution into the file ```cp/re02/prime2```.
+The tests for the function ``prime_factors`` can be run by inserting your solution into the file ``cp/re02/prime2``.
 
 __cp.re02.prime2.prime_factors(_n_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return a list of prime factors of the input number.
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __n__ (```int```) - an integer. \
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __f__ (```list```) - a list of prime factors of the input number.
+
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __n__ (``int``) - an integer. 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __f__ (``list``) - a list of prime factors of the input number.
 
 ## Exercise 2.10: Debounce
 
@@ -284,16 +291,17 @@ Complete the function `debounce` that takes a list, `f` of binary numbers (0 or 
 [5,9]
 ```
 
-The tests for the function ```debounce``` can be run by inserting your solution into the file ```cp/re02/debounce```.
+The tests for the function ``debounce`` can be run by inserting your solution into the file ``cp/re02/debounce``.
 
 __cp.re02.debounce.debounce(_f_,_n_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return a debounced list
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __f__ (```list```) - a binary list. \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __n__ (```int```) - an integer. \
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __l__ (```list```) - a list of indices where the input list f has a debounced value.
+
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __f__ (``list``) - a binary list. 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __n__ (``int``) - an integer. 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __l__ (``list``) - a list of indices where the input list f has a debounced value.
 
 ## Exercise 2.11: Permutations
 
@@ -306,15 +314,16 @@ Complete the function called `permutations` that takes a string `s`, and returns
 ['abc', 'acb', 'bac', 'bca', 'cab', 'cba']
 ```
 
-The tests for the function ```permutations``` can be run by inserting your solution into the file ```cp/re02/permutations```.
+The tests for the function ``permutations`` can be run by inserting your solution into the file ``cp/re02/permutations``.
 
 __cp.re02.permutations.permutations(_s_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return all possible permutations of a string.
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __s__ (```string```) - initial string \
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __perm__ (```list```) - the velocity of the first object \
+
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __s__ (``string``) - initial string 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __perm__ (``list``) - the velocity of the first object \
 
 ## Exercise 2.12: Search Input Position
 
@@ -327,17 +336,18 @@ Complete the function `search_insert` that takes a _sorted_ list, `nums` of inte
 1
 ```
 
-The tests for the function ```search_insert``` can be run by inserting your solution into the file ```cp/re02/insert```.
+The tests for the function ``search_insert`` can be run by inserting your solution into the file ``cp/re02/insert``.
 
 __cp.re02.insert.search_insert(_nums_,_n_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Return the index where the target should be inserted in the list.
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __nums__ (```list```) - a list of integers. \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __n__ (```int```) - an integer. \
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __l__ (```list```) - an integer representing the index where the target should be.
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;inserted.
+
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __nums__ (``list``) - a list of integers. 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __n__ (``int``) - an integer. 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __l__ (``list``) - an integer representing the index where the target should be.
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;inserted.
 
 ## Exercise 2.13: Anagrams
 
@@ -350,13 +360,14 @@ Complete the function `anagrams` that takes a list, `l` of strings, and returns 
 [['eat', 'tea', 'ate'], ['tan', 'nat'], ['bat']]
 ```
 
-The tests for the function ```anagrams``` can be run by inserting your solution into the file ```cp/re02/anagrams```.
+The tests for the function ``anagrams`` can be run by inserting your solution into the file ``cp/re02/anagrams``.
 
 __cp.re02.anagrams.anagrams(_l_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Given a list of strings, return a list of lists containing all anagrams.
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __l__ (```list```) - a list of strings.\
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return \
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __d__ (```list```) - a list of lists containing all anagrams.
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;inserted.
+
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __l__ (``list``) - a list of strings.
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __d__ (``list``) - a list of lists containing all anagrams.
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;inserted.
