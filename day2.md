@@ -7,7 +7,7 @@ layout: default
 >
 > [download_re02.py](download_scripts/download_re02.py)
 >
-> Right-click and select “Save link as…”.
+> Right-click and select “Save link as…”
 > Run this script in VSCode to download the files you need for today's exercise. The script does not need to be located a specific place on your computer.
 
 The following exercises are not all supposed to be completed today. This is a collection of exercises that you can use to practice your skills on your own as well, but all of the TA's are more than capable of helping you with it.
