@@ -29,7 +29,7 @@ $$
 ```python
 >>> simulate_motion(1, 2, 3, 6)
 The objects will never collide.
->>> simulate_motion(3,4,5)
+>>> simulate_motion(1, 2, 6, 3)
 The objects will collide at time 3.0 seconds.
 ```
 
@@ -39,12 +39,12 @@ __cp.re02.physics.simulate_motion(_v1_,_v2_,_x1_,_x2_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Simulate the motion of two objects. Tell when they will collide.
 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __v1__ (``float``) - the velocity of the first object 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __v2__ (``float``) - the velocity of the second object 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __x1__ (``float``) - the initial position of the first object 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __x2__ (``float``) - the initial position of the second object 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Returns 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __v1__ (``float``) - the velocity of the first object
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __v2__ (``float``) - the velocity of the second object
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __x1__ (``float``) - the initial position of the first object
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __x2__ (``float``) - the initial position of the second object
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Returns
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __string__ (``string``) - When and if the objects will collide
 
 ## Exercise 2.2: Dictionary of strings
@@ -64,9 +64,9 @@ __cp.re02.permutations.permutations(_s_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Given a list of strings, return a dictionary with the length of each string as values and the strings as keys.
 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __l__ (``list``) - list of words 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __l__ (``list``) - list of words
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __d__ (``dict``) - dictionary with words as keys and lengths as values \
 
 ## Exercise 2.3: Dictionary of strings 2
@@ -85,9 +85,9 @@ __cp.re02.permutations.permutations(_s_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Given a list of strings, return a dictionary with the length of each string as keys and a list of strings with that length as the value.
 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __l__ (``list``) - list of words 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __l__ (``list``) - list of words
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __d__ (``dict``) - dictionary with words as values and lengths as keys \
 
 ## Exercise 2.4: Palindrome Check
@@ -107,9 +107,9 @@ __cp.re02.palindrome.is_palindrome(_s_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Return True if the input string is a palindrome, False otherwise.
 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __s__ (``str``) - string 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __s__ (``str``) - string
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __b__ (``bool``) - True or False if palindrome or not \
 
 ## Exercise 2.5: Pascals Triangle
@@ -133,9 +133,9 @@ __cp.re02.pascals_triangle.pascals_triangle(_n_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Return Pascal's nth row.
 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __n__ (``int``) - line number to generate 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __n__ (``int``) - line number to generate
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __l__ (``list``) - list of numbers in the nth row of pascals triangle.
 
 ## Exercise 2.6: Matrix Calculation 1
@@ -169,10 +169,10 @@ __cp.re02.matrix1.calc_matrix(_m_,_n_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Calculate the sum of a matrix along an axis. Make sure the matrix is rectangular.
 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __m__ (``list``) - a list of lists of integers. 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __n__ (``int``) - an integer representing the axis to sum along. 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __m__ (``list``) - a list of lists of integers.
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __n__ (``int``) - an integer representing the axis to sum along.
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __l__ (``list``) - a list of integers representing the sum of the matrix along the
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;specified axis.
 
@@ -230,9 +230,9 @@ __cp.re02.matrix2.gauss_jordan_elimination(_m_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Perform Gauss Jordan elimination on a matrix.
 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __m__ (``list``) - a list of lists of integers representing a matrix. 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __m__ (``list``) - a list of lists of integers representing a matrix.
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __m__ (``list``) - a list of lists of integers representing the matrix after Gauss Jordan
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;elimination.
 
@@ -253,9 +253,9 @@ __cp.re02.prime1.is_prime(_n_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return True if the input number is prime, False otherwise.
 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __n__ (``int``) - an integer. 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __n__ (``int``) - an integer.
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __m__ (``bool``) - a boolean indicating whether the input number is prime.
 
 ## Exercise 2.9: Prime factorization
@@ -275,9 +275,9 @@ __cp.re02.prime2.prime_factors(_n_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return a list of prime factors of the input number.
 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __n__ (``int``) - an integer. 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __n__ (``int``) - an integer.
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __f__ (``list``) - a list of prime factors of the input number.
 
 ## Exercise 2.10: Debounce
@@ -297,10 +297,10 @@ __cp.re02.debounce.debounce(_f_,_n_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return a debounced list
 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __f__ (``list``) - a binary list. 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __n__ (``int``) - an integer. 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __f__ (``list``) - a binary list.
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __n__ (``int``) - an integer.
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __l__ (``list``) - a list of indices where the input list f has a debounced value.
 
 ## Exercise 2.11: Permutations
@@ -320,9 +320,9 @@ __cp.re02.permutations.permutations(_s_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return all possible permutations of a string.
 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __s__ (``string``) - initial string 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __s__ (``string``) - initial string
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __perm__ (``list``) - the velocity of the first object \
 
 ## Exercise 2.12: Search Input Position
@@ -342,10 +342,10 @@ __cp.re02.insert.search_insert(_nums_,_n_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Return the index where the target should be inserted in the list.
 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __nums__ (``list``) - a list of integers. 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __n__ (``int``) - an integer. 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __nums__ (``list``) - a list of integers.
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __n__ (``int``) - an integer.
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __l__ (``list``) - an integer representing the index where the target should be.
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;inserted.
 
@@ -366,8 +366,8 @@ __cp.re02.anagrams.anagrams(_l_)__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Given a list of strings, return a list of lists containing all anagrams.
 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Parameters
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __l__ (``list``) - a list of strings.
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - __d__ (``list``) - a list of lists containing all anagrams.
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;inserted.
