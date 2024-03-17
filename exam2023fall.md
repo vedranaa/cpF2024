@@ -369,10 +369,12 @@ The Collatz conjecture is an unsolved problems in mathematics.
 One step of the Collatz conjecture is defined as
 
 $$
-f(n) = \begin{cases}
+f(n) = \left\{
+    \begin{array}{}
     n/2 & \text{if $n$ is even} \\
     3n+1 & \text{if $n$ is odd}
-\end{cases}
+    \end{array}
+\right.
 $$
 
 The conjecture states that for any positive integer $n$, the sequence $n, \, f(n), \, f(f(n)), \, f(f(f(n))), \, \ldots$ will reach the number 1, but whether the conjecture is true has not yet been proven or disproven.
