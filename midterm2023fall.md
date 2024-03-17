@@ -1,4 +1,6 @@
-<a id="midterm2023fall"></a>
+---
+layout: default
+---
 
 # Midterm Fall 2023 - With Solutions
 
