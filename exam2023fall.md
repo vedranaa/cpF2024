@@ -304,6 +304,8 @@ def punctuation_ratio(text: str) -> float:
 Given a 2D NumPy array, we want to compute the sum of all elements occurring in a checkerboard pattern of arbitrary size.
 Consider the following 2D array arranged in a checkerboard pattern:
 
+![checkerboard](images/checkerboard.png)
+
 Write a function which takes as input a 2D NumPy array. The function should return the sum of all elements in the black squares of the checkerboard pattern. The square in the first row and the first column is always black.
 
 Consider the input:
