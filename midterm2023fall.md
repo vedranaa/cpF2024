@@ -11,8 +11,7 @@
 | **Weighting:**       | All tasks have equal weight                                                   |
 | **Number of tasks:** | 5                                                                             |
 
-## Exam Instructions 
-## (as given on the exam day)
+## Exam Instructions (as given on the exam day)
 
 ### Prerequisites
 
