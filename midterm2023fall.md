@@ -177,16 +177,16 @@ def stock_status(number_of_items:int, days_to_delivery:int) -> str:
     :param days_to_delivery: An integer, the number of days to delivery.
     :return: The stock status message.
     """
-    if number_of_items<0:
+    if number_of_items < 0:
         return('Unknown')
-    elif number_of_items>5:
+    elif number_of_items > 5:
         return('In stock')
-    elif number_of_items>0:
+    elif number_of_items > 0:
         return('Only ' + str(number_of_items) + ' left in stock')
     else:
-        if days_to_delivery<0:
+        if days_to_delivery < 0:
             return('Unknown')
-        elif days_to_delivery>0:
+        elif days_to_delivery > 0:
             return('Available in ' + str(days_to_delivery) + ' days')
         else:
             return('Out of stock')
