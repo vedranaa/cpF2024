@@ -1,6 +1,6 @@
 <a id="midterm2023fall"></a>
 
-# Midterm Fall 2023 -- With Solutions
+# Midterm Fall 2023 - With Solutions
 
 | **Course name:**     | Computer programming                                                          |
 |----------------------|-------------------------------------------------------------------------------|
