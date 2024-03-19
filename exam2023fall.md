@@ -250,7 +250,7 @@ Consider the input:
 
 Consider now all seven occurrences of `" and "`, highlighted in the following text:
 
-> Sara **and** Emma like to travel, bike, **and** hike, **and** when they are traveling they always take their bikes, hiking shoes, **and** sleeping bags. Last year, Sarah **and** Emma traveled to Italy, France, **and** Spain. And that was fun, and, according to Sara **and** Emma, very expensive!
+> > Sara **and** Emma like to travel, bike, **and** hike, **and** when they are traveling they always take their bikes, hiking shoes, **and** sleeping bags. Last year, Sarah **and** Emma traveled to Italy, France, **and** Spain. And that was fun, and, according to Sara **and** Emma, very expensive!
 
 The string `" and "` is not preceded by a comma three times (in the phrase *Sarah and Emma*), while it is preceded by a comma four times (all other occurrences). The ratio we should compute is therefore 4/3, and this is what your function should return, as seen in the example above.
 
