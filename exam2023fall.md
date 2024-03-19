@@ -360,7 +360,7 @@ def checkerboard_sum(A: np.ndarray) -> float:
     :param A: A 2D NumPy array.
     :return: The sum of elements in checkerboard pattern.
     """
-    return A[::2,::2].sum() + A[1::2,1::2].sum()
+    return A[::2, ::2].sum() + A[1::2, 1::2].sum()
 ```
 
 ## Task 6: Collatz Conjecture
@@ -421,7 +421,7 @@ def collatz_conjecture(n: int) -> int:
     """
     count = 0
     while n > 1:
-        if n%2 == 0:
+        if n % 2 == 0:
             n = n//2
         else:
             n = 3 * n + 1
