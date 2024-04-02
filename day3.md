@@ -105,13 +105,31 @@ __cp.re03.filesearch.search_file(_file_name_)__
 
 ## Exercise 3.5: Sort a file
 
-Complete the function ``sort_file`` which takes ``file_name`` and `new_file_name` as input and creates a file with the name `new_file_name` and puts in the text from the file `file_name` but sorted
+Complete the function ``sort_file`` which takes ``file_name`` and `new_file_name` as input and creates a file with the name `new_file_name` and puts in the text from the file `file_name` but sorted.
 
 ```python
 >>> sort_file("cp/re03/files/unsorted.txt","cp/re03/files/sorted.txt")
 ```
 
-There are no tests for this function, however you should easily be able to see if the file is created and if the text is sorted.
+There are no tests for this function, however you should easily be able to see if the file is created and if the text is sorted. An example of this would be letting a file with the following text:
+
+```python
+10
+21
+8
+5
+9
+```
+
+Be sorted to:
+
+```python
+5
+8
+9
+10
+21
+```
 
 __cp.re03.filesort.sort_file(_file_name,new_file_name_)__
 
