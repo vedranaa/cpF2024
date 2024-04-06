@@ -81,7 +81,7 @@ __cp.re03.readcsv.read_csv(_file_name_)__
 
 ## Exercise 3.4: Search Word
 
-Complete the function ``search_word`` which takes ``file_name`` and `word` as input and returns the line number and line in which the word shows up for the first time.
+Complete the function ``search_word`` which takes ``file_name`` and `word` as input and returns the line number and line in which the word shows up for the first time. If the word is not there return ``-1```.
 
 ```python
 >>> search_word('cp/re03/files/1.txt', 'Nunc')

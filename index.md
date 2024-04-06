@@ -14,7 +14,7 @@ The lecture will be followed by exercises, with TA help available for 2.5 hours 
 | Date (2024)   | Time        | Focus            | Video Lectures                   |
 | :------------ | :---------- | ---------------- | -------------------------------- |
 | 2nd of March  | 13:00-17:00 | Assignments      | Not availible due to tech. diff. |
-| 16th of March | 13:00-17:00 | Loops            | LINK (Yet to be done)            |
+| 16th of March | 13:00-17:00 | Loops            | (Exercsises Done)[files_from_lectures/re02.zip]            |
 | 6th of April  | 13:00-17:00 | Files            | LINK (Yet to be done)            |
 | 13th of April | 13:00-17:00 | Dicts and tuples | LINK (Yet to be done)            |
 | 27th of April | 13:00-17:00 | Classes          | LINK (Yet to be done)            |
