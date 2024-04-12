@@ -5,7 +5,7 @@ layout: default
 
 > You must start by downloading the script
 >
-> [download_re04.py Not ready yet]()
+> [download_re04.py](download_scripts/download_re04.py)
 >
 > Right-click and select “Save link as…”
 > Run this script in VSCode to download the files you need for today's exercise. The script does not need to be located a specific place on your computer.
