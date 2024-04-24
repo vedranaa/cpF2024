@@ -476,7 +476,7 @@ You should also implement the following methods in the `Reaction` class:
 ```python
 >>> c = Atom("C", 6, 12.011)
 >>> o = Atom("O", 8, 15.999)
->>> co = Molecule()
+>>> co2 = Molecule()
 >>> co2.add_atom(c)
 >>> co2.add_atom(o)
 >>> co2.add_atom(o)
@@ -495,7 +495,7 @@ You should also implement the following methods in the `Reaction` class:
 >>> h2o.add_atom(h)
 >>> h2o.add_atom(h)
 >>> h2o.add_atom(o)
->>> r = Reaction([co2, h2], [methanol, h2o])
+>>> r = Reaction([co2, h2, h2, h2], [methanol, h2o])
 >>> r.balance_reaction()
 True
 ```
