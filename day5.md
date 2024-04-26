@@ -5,7 +5,7 @@ layout: default
 
 > You must start by downloading the script
 >
-> [download_re05.py - Not working yet]()
+> [download_re05.py](download_script/re05.py)
 >
 > Right-click and select “Save link as…”
 > Run this script in VSCode to download the files you need for today's exercise. The script does not need to be located a specific place on your computer.
@@ -476,7 +476,7 @@ You should also implement the following methods in the `Reaction` class:
 ```python
 >>> c = Atom("C", 6, 12.011)
 >>> o = Atom("O", 8, 15.999)
->>> co2 = Molecule()
+>>> co2  = Molecule()
 >>> co2.add_atom(c)
 >>> co2.add_atom(o)
 >>> co2.add_atom(o)
