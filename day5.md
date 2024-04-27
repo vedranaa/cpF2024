@@ -94,7 +94,7 @@ $$
  T_C = (T_F-32)*5/9
 $$
 
-Lastly, `to_farenheit(self)` should return the defined temperature if `"F"` was specified at the start, or the coresponding temperature in Celcius if `"C"` was specified at the start. 
+Lastly, `to_fahrenheit(self)` should return the defined temperature if `"F"` was specified at the start, or the coresponding temperature in Celcius if `"C"` was specified at the start. 
 
 ```python
 >>> T = Temperature("F",32)
@@ -142,7 +142,7 @@ Once implemented, you can test the function by running the function tests provid
 
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - (``int``) - Temperature in celcius
 
->__cp.re05.temperature.Temperature.to_farenheit()__
+>__cp.re05.temperature.Temperature.to_fahrenheit()__
 
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return the temperature in farenheit no matter the set temperature scale
 
