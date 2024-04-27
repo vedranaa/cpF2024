@@ -15,8 +15,8 @@ The lecture will be followed by exercises, with TA help available for 2.5 hours 
 | :------------ | :---------- | ---------------- | -------------------------------- | ------------------|
 | 2nd of March  | 13:00-17:00 | Assignments      | Not availible due to tech. diff. | [Solutions](Solutions/re01_sol.zip) |
 | 16th of March | 13:00-17:00 | Loops            | [Exercsises Done](files_from_lectures/re02.zip)            | [Solutions](Solutions/re02_sol.zip)   |
-| 6th of April  | 13:00-17:00 | Files            | [Exercsises Done](files_from_lectures/Walkthrough3.zip)            | Not available yet |
-| 13th of April | 13:00-17:00 | Dicts and tuples | LINK (Yet to be done)            | Not available yet |
+| 6th of April  | 13:00-17:00 | Files            | [Exercsises Done](files_from_lectures/Walkthrough3.zip)            | [Solutions](Solutions/re03_sol.zip)   |
+| 13th of April | 13:00-17:00 | Dicts and tuples | LINK (Yet to be done)            | [Solutions](Solutions/re04_sol.zip)   |
 | 27th of April | 13:00-17:00 | Classes          | LINK (Yet to be done)            | Not available yet |
 | 26th of May   | 09:00-17:00 | Entire syllabus  | LINK (Yet to be done)            | Not available yet |
 
