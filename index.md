@@ -9,6 +9,10 @@ For each day of the brush-up course, there will be a lecture (in Danish) lasting
 
 The lecture will be followed by exercises, with TA help available for 2.5 hours (14:30-17:00). Each day, the lecture will have a special focus, but exercises will cover more varied parts of the course. We have prepared new exercises, so you can both refresh the basics, and try problems similar to what could appear on the exam.
 
+## Drop-in Python support
+[DTU Python Support](https://pythonsupport.dtu.dk/) is ready for drop-in support if you need help with your Python installation, or if you want to double-check your installation before the exam. You can find them in **building 303A** on the **27th and 28th of May** from **10:00 to 16:00**.   
+
+
 ## Tentative Schedule
 
 | Date (2024)   | Time        | Focus            | Video Lectures                   |
