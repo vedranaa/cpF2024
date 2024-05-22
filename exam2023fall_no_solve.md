@@ -2,63 +2,7 @@
 layout: default
 ---
 
-# Day 6 - Recap
-
-For this day, we will recap the topics we have covered so far, and to test your understanding, you will attempt to solve the exam from this fall. The exam is a good way to test your understanding of the topics we have covered so far, and it will give you a good idea of what to expect in the final exam.
-
-To make sure you are ready for the exam, please prepare two things:
-
-- Make sure you have the course toolbox installed and that you can run the download script.
-- Make sure you can run the token generation script, such that you can hand in your exam.
-
-If you cannot run the download script or the token generation script, please reach out to the python support team ASAP. Otherwise, if all fails, remember you can always hand in the scripts you have written at the exam. You can download the exam files from the following link:
-
-[Download Exam Files](/assets/exam2023fall.py)
-
-The download script contains the exam files, and you should run it in the same way you have run the download scripts for the weekly exercises and the midterm exam. The exam files contain the tasks you need to solve, and you should complete the Python files in the tasks folder. You can test your solutions by running the provided testing script `exam2023fall_tests.py`. The testing script will test your solutions on a small number of test cases, similar to how we have tested the weekly exercises and the midterm exam.
-
-When you have completed the tasks, you should generate a token file by running the provided grading script `exam2023fall_grade.py`. 
-
-If you have any questions at all, reach out to a TA, or write to Nicolai Amin at [E-mail](mailto:s194113@dtu.dk). Good luck with the exam! Below is a short bulletpoint recap of the topics we have covered so far.
-
-# Recap Weeks
-
-## Week 1 - [Introduction to Python](/day1)
-
-- **Python Basics**
-  - Variables and data types
-  - Operators
-  - Strings
-  - Lists
-
-## Week 2 - [Control Structures](/day2)
-
-- **Control Structures**
-  - Conditional statements
-  - Loops
-  - Functions
-
-## Week 3 - [Advanced Data Structures](/day3)
-
-- **Advanced Data Structures**
-  - Tuples
-  - Dictionaries
-  - Sets
-
-## Week 4 - [File Handling](/day4)
-
-- **File Handling**
-  - Reading and writing files
-  - CSV files
-
-## Week 5 - [NumPy](/day5)
-
-- **Classes**
-  - Defining classes
-  - Inheritance
-
-
-# Exam 2023 Fall - Without Solutions
+# Exam 2023 Fall - With Solutions
 
 | **Course name:**     | Computer programming        |
 |----------------------|-----------------------------|
