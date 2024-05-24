@@ -13,7 +13,7 @@ To make sure you are ready for the exam, please prepare two things:
 
 If you cannot run the download script or the token generation script, please reach out to the python support team ASAP. Otherwise, if all fails, remember you can always hand in the scripts you have written at the exam. You can download the exam files from the following link:
 
-[Download Exam Files](/assets/exam2023fall.py)
+[Download Exam Files](/download_scripts/download_exam2023fall.py)
 
 The download script contains the exam files, and you should run it in the same way you have run the download scripts for the weekly exercises and the midterm exam. The exam files contain the tasks you need to solve, and you should complete the Python files in the tasks folder. You can test your solutions by running the provided testing script `exam2023fall_tests.py`. The testing script will test your solutions on a small number of test cases, similar to how we have tested the weekly exercises and the midterm exam.
 
