@@ -23,7 +23,7 @@ If you have any questions at all, reach out to a TA, or write to Nicolai Amin at
 
 # Recap Weeks
 
-## Week 1 - [Introduction to Python](/day1)
+## Week 1 - [Introduction to Python](day1)
 
 - **Python Basics**
   - Variables and data types
@@ -31,27 +31,27 @@ If you have any questions at all, reach out to a TA, or write to Nicolai Amin at
   - Strings
   - Lists
 
-## Week 2 - [Control Structures](/day2)
+## Week 2 - [Control Structures](day2)
 
 - **Control Structures**
   - Conditional statements
   - Loops
   - Functions
 
-## Week 3 - [Advanced Data Structures](/day3)
+## Week 3 - [Advanced Data Structures](day3)
 
 - **Advanced Data Structures**
   - Tuples
   - Dictionaries
   - Sets
 
-## Week 4 - [File Handling](/day4)
+## Week 4 - [File Handling](day4)
 
 - **File Handling**
   - Reading and writing files
   - CSV files
 
-## Week 5 - [NumPy](/day5)
+## Week 5 - [NumPy](day5)
 
 - **Classes**
   - Defining classes
