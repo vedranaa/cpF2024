@@ -1,3 +1,4 @@
+```python
 from unitgrade import Report, UTestCase, hide
 from unittest.mock import patch
 import cp
@@ -700,3 +701,4 @@ class ReExam2024May(Report):
 if __name__ == '__main__':
     from unitgrade import evaluate_report_student
     evaluate_report_student(ReExam2024May())
+```
