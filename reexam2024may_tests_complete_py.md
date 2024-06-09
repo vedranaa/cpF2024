@@ -692,4 +692,5 @@ class ReExam2024May(Report):
 
 if __name__ == '__main__':
     from unitgrade import evaluate_report_student
-    evaluate_report_student(ReExam2024May())```
+    evaluate_report_student(ReExam2024May())
+```
